@@ -6,7 +6,7 @@
   "homepage": "https://aditorito.github.io/portfolio-website",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build src/index.html --dist-dir build",
     "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
