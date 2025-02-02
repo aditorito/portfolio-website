@@ -3,6 +3,10 @@ logs
 *.log
 
 # Build files generated from Parcel
+# Ignore only Parcel cache & temp files, not entire dist
+.parcel-cache
+dist/*.c
+dist/*.map
 
 
 # Dependency directories
