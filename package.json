@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://aditorito.github.io/portfolio-website/",
+  "homepage": "https://aditorito.github.io/portfolio-website",
   "scripts": {
     "start": "parcel",
     "build": "parcel build src/index.html --dist-dir build",
